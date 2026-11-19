@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Where Can Nature Survive Climate Change? — Climate Refugia &amp; Biodiversity Atlas</title>
+  <meta name="description" content="Two interactive maps: potential climate refugia by 2050 and where species-rich lands overlap with them.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%230e1a24' stroke='%233fc1b0' stroke-width='3'/%3E%3Cpath d='M9 19c3-7 11-9 14-9-1 6-5 12-12 12' fill='%233fc1b0'/%3E%3C/svg%3E">
+</head>
+<body data-map="m1">
+<div class="app">
+
+  <!-- ============================== SIDE PANEL ============================== -->
+  <aside class="panel" id="panel">
+    <header class="masthead">
+      <p class="kicker">Climate × Biodiversity Atlas</p>
+      <h1>Where can nature survive climate&nbsp;change?</h1>
+    </header>
+
+    <nav class="tabs" role="tablist" aria-label="Choose a map">
+      <button role="tab" class="tab" id="tab-m1" aria-selected="true" aria-controls="sec-m1" data-map="m1">
+        <span class="tab-num">MAP 01</span><span class="tab-name">Refuge</span>
+      </button>
+      <button role="tab" class="tab" id="tab-m2" aria-selected="false" aria-controls="sec-m2" data-map="m2">
+        <span class="tab-num">MAP 02</span><span class="tab-name">Safe haven</span>
+      </button>
+    </nav>
+
+    <div class="scenario">
+      <div class="scenario-head">
+        <span class="label">Emissions scenario · 2041–2060</span>
+        <button class="info-btn" type="button" data-popover="scen-info" aria-label="About scenarios">?</button>
+      </div>
+      <div class="seg" role="radiogroup" aria-label="Scenario">
+        <button role="radio" data-scen="ssp126" aria-checked="false"><b>SSP1-2.6</b><small>Low</small></button>
+        <button role="radio" data-scen="ssp245" aria-checked="true"><b>SSP2-4.5</b><small>Intermediate</small></button>
+        <button role="radio" data-scen="ssp585" aria-checked="false"><b>SSP5-8.5</b><small>Very high</small></button>
+      </div>
+      <p class="popover" id="scen-info" hidden>Shared Socioeconomic Pathways used by IPCC AR6. Warming is the CMIP6 multi-model median for 2041–2060 relative to 1995–2014. SSP2-4.5 is close to where current policies lead; SSP1-2.6 requires deep, fast cuts; SSP5-8.5 is a high-end, fossil-intensive world.</p>
+    </div>
+
+    <div class="scroll">
+
+    <!-- ------------------------------ MAP 01 ------------------------------ -->
+    <section class="sec" id="sec-m1" role="tabpanel" aria-labelledby="tab-m1">
+      <p class="map-kicker">MAP 01</p>
+      <h2>Where Will Nature Find Refuge?</h2>
+      <p class="subtitle">Mapping Potential Climate Refugia by 2050</p>
+      <p class="question">Where will relatively favourable climatic conditions persist for natural ecosystems?</p>
+      <p class="lead">A <em>climate refugium</em> is a place where the climate changes slowly enough—or where terrain offers enough cooler, moister niches nearby—that plants and animals can stay put or move only a short distance. This map combines three signals into one index: how fast climate zones move across the land, how far warming pushes beyond normal year-to-year variability, and how much topographic shelter the landscape offers.</p>
+
+      <div class="tiles" id="m1-tiles"></div>
+
+      <h3 class="block-title">Layers</h3>
+      <div class="layers" id="m1-layers" role="radiogroup" aria-label="Map 01 layers"></div>
+
+      <div class="legend" id="m1-legend"></div>
+
+      <h3 class="block-title">Where refugia persist <span class="muted" data-scen-label></span></h3>
+      <p class="hint">Share of each IPCC AR6 land region classed as moderate or strong refugium.</p>
+      <div class="rank" id="m1-rank"></div>
+
+      <details class="methods">
+        <summary>Method &amp; data</summary>
+        <ol>
+          <li><b>Baseline climate.</b> ERA-Interim 2 m air-temperature climatology, downscaled to 10′ (~18 km) with ETOPO5 relief and a 6.5 °C/km lapse rate.</li>
+          <li><b>Projected warming.</b> CMIP6 multi-model median change in land temperature, 2041–2060 vs 1995–2014, for each of the 46 IPCC AR6 land regions (IPCC WGI Atlas; 32–34 models), smoothed across region borders.</li>
+          <li><b>Climate velocity</b> = warming rate ÷ local spatial temperature gradient (km/yr), after Loarie et al. 2009. Low velocity = an organism needs to move only a little to keep the same temperature.</li>
+          <li><b>Climate novelty</b> = warming ÷ interannual variability (σ of detrended 1965–2014 annual means across models). Low values mean the future stays closer to familiar conditions.</li>
+          <li><b>Topographic diversity</b> = elevation range within ~55 km (ETOPO5), a proxy for micro-refugia.</li>
+          <li><b>Refugia index</b> = 0.5 × (low velocity) + 0.3 × (low novelty) + 0.2 × (topographic diversity), each converted to a 0–1 percentile using the SSP2-4.5 distribution. Classes are SSP2-4.5 quintiles applied unchanged to all scenarios, so the scenarios are directly comparable.</li>
+        </ol>
+        <p class="caveat">This is a screening index, not a prediction for individual species. Velocities depend on grid resolution (finer grids give lower values) and precipitation, fire and land use are not included. Permanent ice and land south of 60° S are excluded.</p>
+      </details>
+    </section>
+
+    <!-- ------------------------------ MAP 02 ------------------------------ -->
+    <section class="sec" id="sec-m2" role="tabpanel" aria-labelledby="tab-m2" hidden>
+      <p class="map-kicker">MAP 02</p>
+      <h2>Which Species Will Have a Safe Haven?</h2>
+      <p class="subtitle">Biodiversity and Climate Refugia</p>
+      <p class="question">Which areas of high biodiversity coincide with potential climate refugia?</p>
+      <p class="lead">Refugia matter most where many species live. Here the climate-refugia index from Map 01 is crossed with the richness of land vertebrates—amphibians, birds, mammals and reptiles—mapped from expert range maps. <span class="swatch-inline sh"></span> <b>Safe havens</b> are species-rich <i>and</i> climatically stable; <span class="swatch-inline ar"></span> <b>biodiversity at risk</b> are species-rich but highly exposed.</p>
+
+      <div class="tiles" id="m2-tiles"></div>
+
+      <h3 class="block-title">Layers</h3>
+      <div class="layers" id="m2-layers" role="radiogroup" aria-label="Map 02 layers"></div>
+      <label class="check"><input type="checkbox" id="hs-toggle" checked> <span>Show biodiversity hotspots (Conservation International)</span></label>
+
+      <div class="legend" id="m2-legend"></div>
+
+      <h3 class="block-title">Hotspots: refuge or risk? <span class="muted" data-scen-label></span></h3>
+      <p class="hint">Share of each hotspot's land in <span class="key ref"></span> refugia (top 40 %) vs <span class="key exp"></span> exposed classes (bottom 40 %). Click a row to fly there.</p>
+      <div class="hs-sort" role="radiogroup" aria-label="Sort hotspots">
+        <span>Sort:</span>
+        <button data-sort="refuge" aria-checked="true">Most refuge</button>
+        <button data-sort="exposed" aria-checked="false">Most exposed</button>
+        <button data-sort="richness" aria-checked="false">Richness</button>
+      </div>
+      <div class="hs-table" id="hs-table"></div>
+
+      <details class="methods">
+        <summary>Method &amp; data</summary>
+        <ol>
+          <li><b>Species richness.</b> Number of species whose range overlaps each 0.5° cell: amphibians and mammals (IUCN Red List range maps), birds (BirdLife International), reptiles (GARD, Roll et al. 2017), rasterised by the rasterSp project. Threatened = IUCN categories VU, EN, CR (amphibians, birds, mammals).</li>
+          <li><b>Refugia.</b> Map 01 index averaged to 0.5°.</li>
+          <li><b>Bivariate classes.</b> Terciles of richness (all species-bearing land) × terciles of the refugia index (SSP2-4.5 thresholds, kept fixed for other scenarios).</li>
+          <li><b>Hotspots.</b> The 35 biodiversity hotspots of Conservation International (Mittermeier et al. 2004, plus Forests of East Australia added in 2011); hotspot statistics use the 10′ refugia grid.</li>
+        </ol>
+        <p class="caveat">Range maps overestimate where species actually occur at fine scales, and richness treats every species equally. Use it to compare regions, not to plan individual reserves.</p>
+      </details>
+    </section>
+
+    <footer class="credits">
+      <p><b>Sources.</b> IPCC AR6 WGI Atlas (Iturbide et al. 2021) · CMIP6 · ERA-Interim (ECMWF) · ETOPO5 (NOAA NGDC) · IUCN Red List · BirdLife International · GARD · rasterSp (Biber) · Conservation International hotspots · Natural Earth.</p>
+      <p>Made for a map challenge. Every layer can be rebuilt from public data with <code>scripts/</code> in the repository.</p>
+    </footer>
+    </div>
+  </aside>
+
+  <!-- ============================== MAP ============================== -->
+  <main class="map-wrap">
+    <div id="map" aria-label="Interactive map"></div>
+    <div class="map-title" id="map-title"></div>
+    <div class="map-tools">
+      <button type="button" id="btn-home" title="Reset view" aria-label="Reset view">⤢</button>
+      <button type="button" id="btn-panel" title="Toggle panel" aria-label="Toggle side panel">☰</button>
+    </div>
+    <div class="probe" id="probe" hidden></div>
+    <p class="map-hint" id="map-hint">Click anywhere on land to read the values</p>
+  </main>
+</div>
+
+<script src="assets/vendor/leaflet/leaflet.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

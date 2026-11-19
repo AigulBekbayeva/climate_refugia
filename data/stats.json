@@ -1,0 +1,2435 @@
+{
+ "scenarios": [
+  "ssp126",
+  "ssp245",
+  "ssp585"
+ ],
+ "headline": {
+  "ssp126": {
+   "global_dT": 1.29,
+   "land_dT": 1.31,
+   "models": 32,
+   "strong_refugia_pct": 35.6,
+   "refugia_pct": 57.8,
+   "exposed_pct": 21.9,
+   "median_velocity": 2.264,
+   "safe_haven_pct": 22.7,
+   "at_risk_pct": 6.6,
+   "rich_in_refuge_pct": 53.3,
+   "rich_exposed_pct": 15.6
+  },
+  "ssp245": {
+   "global_dT": 1.62,
+   "land_dT": 1.64,
+   "models": 34,
+   "strong_refugia_pct": 18.4,
+   "refugia_pct": 38.7,
+   "exposed_pct": 41.2,
+   "median_velocity": 2.835,
+   "safe_haven_pct": 13.5,
+   "at_risk_pct": 14.9,
+   "rich_in_refuge_pct": 31.6,
+   "rich_exposed_pct": 35.1
+  },
+  "ssp585": {
+   "global_dT": 2.26,
+   "land_dT": 2.25,
+   "models": 34,
+   "strong_refugia_pct": 2.9,
+   "refugia_pct": 18.8,
+   "exposed_pct": 65.0,
+   "median_velocity": 3.858,
+   "safe_haven_pct": 5.5,
+   "at_risk_pct": 25.4,
+   "rich_in_refuge_pct": 13.0,
+   "rich_exposed_pct": 59.6
+  }
+ },
+ "regions": {
+  "ssp126": [
+   {
+    "acr": "GIC",
+    "name": "Greenland/Iceland",
+    "refuge_pct": 99.5,
+    "dT": 1.26
+   },
+   {
+    "acr": "SWS",
+    "name": "S.W.South-America",
+    "refuge_pct": 98.1,
+    "dT": 0.93
+   },
+   {
+    "acr": "NZ",
+    "name": "New-Zealand",
+    "refuge_pct": 96.8,
+    "dT": 0.78
+   },
+   {
+    "acr": "WNA",
+    "name": "W.North-America",
+    "refuge_pct": 95.1,
+    "dT": 1.49
+   },
+   {
+    "acr": "SSA",
+    "name": "S.South-America",
+    "refuge_pct": 94.2,
+    "dT": 0.68
+   },
+   {
+    "acr": "TIB",
+    "name": "Tibetan-Plateau",
+    "refuge_pct": 94.1,
+    "dT": 1.46
+   },
+   {
+    "acr": "MDG",
+    "name": "Madagascar",
+    "refuge_pct": 91.5,
+    "dT": 0.9
+   },
+   {
+    "acr": "NCA",
+    "name": "N.Central-America",
+    "refuge_pct": 85.7,
+    "dT": 1.2
+   },
+   {
+    "acr": "RFE",
+    "name": "Russian-Far-East",
+    "refuge_pct": 85.7,
+    "dT": 1.6
+   },
+   {
+    "acr": "EAU",
+    "name": "E.Australia",
+    "refuge_pct": 82.4,
+    "dT": 0.89
+   },
+   {
+    "acr": "SAU",
+    "name": "S.Australia",
+    "refuge_pct": 81.7,
+    "dT": 0.84
+   },
+   {
+    "acr": "WCA",
+    "name": "W.C.Asia",
+    "refuge_pct": 81.4,
+    "dT": 1.3
+   },
+   {
+    "acr": "ESAF",
+    "name": "E.Southern-Africa",
+    "refuge_pct": 79.0,
+    "dT": 1.04
+   },
+   {
+    "acr": "ECA",
+    "name": "E.C.Asia",
+    "refuge_pct": 77.1,
+    "dT": 1.46
+   },
+   {
+    "acr": "ESB",
+    "name": "E.Siberia",
+    "refuge_pct": 76.6,
+    "dT": 1.55
+   },
+   {
+    "acr": "SCA",
+    "name": "S.Central-America",
+    "refuge_pct": 75.0,
+    "dT": 1.06
+   },
+   {
+    "acr": "NWN",
+    "name": "N.W.North-America",
+    "refuge_pct": 74.7,
+    "dT": 1.96
+   },
+   {
+    "acr": "MED",
+    "name": "Mediterranean",
+    "refuge_pct": 73.5,
+    "dT": 1.24
+   },
+   {
+    "acr": "NEU",
+    "name": "N.Europe",
+    "refuge_pct": 71.4,
+    "dT": 1.15
+   },
+   {
+    "acr": "NES",
+    "name": "N.E.South-America",
+    "refuge_pct": 69.7,
+    "dT": 1.02
+   },
+   {
+    "acr": "NWS",
+    "name": "N.W.South-America",
+    "refuge_pct": 69.0,
+    "dT": 1.04
+   },
+   {
+    "acr": "SEAF",
+    "name": "S.Eastern-Africa",
+    "refuge_pct": 68.6,
+    "dT": 0.97
+   },
+   {
+    "acr": "CAU",
+    "name": "C.Australia",
+    "refuge_pct": 67.6,
+    "dT": 1.02
+   },
+   {
+    "acr": "SAS",
+    "name": "S.Asia",
+    "refuge_pct": 63.2,
+    "dT": 1.07
+   },
+   {
+    "acr": "SES",
+    "name": "S.E.South-America",
+    "refuge_pct": 60.5,
+    "dT": 0.96
+   },
+   {
+    "acr": "NEAF",
+    "name": "N.Eastern-Africa",
+    "refuge_pct": 59.8,
+    "dT": 1.02
+   },
+   {
+    "acr": "SEA",
+    "name": "S.E.Asia",
+    "refuge_pct": 59.7,
+    "dT": 0.91
+   },
+   {
+    "acr": "WSAF",
+    "name": "W.Southern-Africa",
+    "refuge_pct": 58.3,
+    "dT": 1.09
+   },
+   {
+    "acr": "NAU",
+    "name": "N.Australia",
+    "refuge_pct": 56.4,
+    "dT": 0.99
+   },
+   {
+    "acr": "EAS",
+    "name": "E.Asia",
+    "refuge_pct": 51.7,
+    "dT": 1.5
+   },
+   {
+    "acr": "ENA",
+    "name": "E.North-America",
+    "refuge_pct": 49.6,
+    "dT": 1.54
+   },
+   {
+    "acr": "WCE",
+    "name": "West&Central-Europe",
+    "refuge_pct": 45.6,
+    "dT": 1.36
+   },
+   {
+    "acr": "RAR",
+    "name": "Russian-Arctic",
+    "refuge_pct": 44.1,
+    "dT": 2.22
+   },
+   {
+    "acr": "WAF",
+    "name": "Western-Africa",
+    "refuge_pct": 43.8,
+    "dT": 1.0
+   },
+   {
+    "acr": "CNA",
+    "name": "C.North-America",
+    "refuge_pct": 42.9,
+    "dT": 1.58
+   },
+   {
+    "acr": "SAM",
+    "name": "South-American-Monsoon",
+    "refuge_pct": 42.0,
+    "dT": 1.2
+   },
+   {
+    "acr": "CAR",
+    "name": "Caribbean",
+    "refuge_pct": 41.0,
+    "dT": 1.0
+   },
+   {
+    "acr": "NEN",
+    "name": "N.E.North-America",
+    "refuge_pct": 40.7,
+    "dT": 1.95
+   },
+   {
+    "acr": "WSB",
+    "name": "W.Siberia",
+    "refuge_pct": 37.5,
+    "dT": 1.61
+   },
+   {
+    "acr": "NSA",
+    "name": "N.South-America",
+    "refuge_pct": 37.1,
+    "dT": 1.07
+   },
+   {
+    "acr": "CAF",
+    "name": "Central-Africa",
+    "refuge_pct": 36.0,
+    "dT": 0.96
+   },
+   {
+    "acr": "EEU",
+    "name": "E.Europe",
+    "refuge_pct": 25.9,
+    "dT": 1.61
+   },
+   {
+    "acr": "ARP",
+    "name": "Arabian-Peninsula",
+    "refuge_pct": 23.7,
+    "dT": 1.43
+   },
+   {
+    "acr": "SAH",
+    "name": "Sahara",
+    "refuge_pct": 16.2,
+    "dT": 1.26
+   }
+  ],
+  "ssp245": [
+   {
+    "acr": "GIC",
+    "name": "Greenland/Iceland",
+    "refuge_pct": 99.0,
+    "dT": 1.58
+   },
+   {
+    "acr": "NZ",
+    "name": "New-Zealand",
+    "refuge_pct": 94.3,
+    "dT": 1.0
+   },
+   {
+    "acr": "SSA",
+    "name": "S.South-America",
+    "refuge_pct": 90.4,
+    "dT": 0.86
+   },
+   {
+    "acr": "WNA",
+    "name": "W.North-America",
+    "refuge_pct": 87.2,
+    "dT": 1.84
+   },
+   {
+    "acr": "SWS",
+    "name": "S.W.South-America",
+    "refuge_pct": 86.2,
+    "dT": 1.3
+   },
+   {
+    "acr": "TIB",
+    "name": "Tibetan-Plateau",
+    "refuge_pct": 80.0,
+    "dT": 1.77
+   },
+   {
+    "acr": "RFE",
+    "name": "Russian-Far-East",
+    "refuge_pct": 72.1,
+    "dT": 1.95
+   },
+   {
+    "acr": "MDG",
+    "name": "Madagascar",
+    "refuge_pct": 70.0,
+    "dT": 1.12
+   },
+   {
+    "acr": "EAU",
+    "name": "E.Australia",
+    "refuge_pct": 64.5,
+    "dT": 1.28
+   },
+   {
+    "acr": "ECA",
+    "name": "E.C.Asia",
+    "refuge_pct": 63.9,
+    "dT": 1.75
+   },
+   {
+    "acr": "WCA",
+    "name": "W.C.Asia",
+    "refuge_pct": 63.0,
+    "dT": 1.73
+   },
+   {
+    "acr": "SCA",
+    "name": "S.Central-America",
+    "refuge_pct": 62.2,
+    "dT": 1.3
+   },
+   {
+    "acr": "NWN",
+    "name": "N.W.North-America",
+    "refuge_pct": 60.1,
+    "dT": 2.36
+   },
+   {
+    "acr": "NCA",
+    "name": "N.Central-America",
+    "refuge_pct": 59.4,
+    "dT": 1.56
+   },
+   {
+    "acr": "NEU",
+    "name": "N.Europe",
+    "refuge_pct": 59.0,
+    "dT": 1.56
+   },
+   {
+    "acr": "ESB",
+    "name": "E.Siberia",
+    "refuge_pct": 57.8,
+    "dT": 2.0
+   },
+   {
+    "acr": "NWS",
+    "name": "N.W.South-America",
+    "refuge_pct": 57.1,
+    "dT": 1.29
+   },
+   {
+    "acr": "MED",
+    "name": "Mediterranean",
+    "refuge_pct": 52.3,
+    "dT": 1.54
+   },
+   {
+    "acr": "SAS",
+    "name": "S.Asia",
+    "refuge_pct": 47.9,
+    "dT": 1.18
+   },
+   {
+    "acr": "SEA",
+    "name": "S.E.Asia",
+    "refuge_pct": 46.7,
+    "dT": 1.1
+   },
+   {
+    "acr": "SEAF",
+    "name": "S.Eastern-Africa",
+    "refuge_pct": 41.7,
+    "dT": 1.21
+   },
+   {
+    "acr": "SES",
+    "name": "S.E.South-America",
+    "refuge_pct": 41.6,
+    "dT": 1.2
+   },
+   {
+    "acr": "NES",
+    "name": "N.E.South-America",
+    "refuge_pct": 41.5,
+    "dT": 1.23
+   },
+   {
+    "acr": "EAS",
+    "name": "E.Asia",
+    "refuge_pct": 41.1,
+    "dT": 1.61
+   },
+   {
+    "acr": "NEAF",
+    "name": "N.Eastern-Africa",
+    "refuge_pct": 39.8,
+    "dT": 1.22
+   },
+   {
+    "acr": "SAU",
+    "name": "S.Australia",
+    "refuge_pct": 39.0,
+    "dT": 1.14
+   },
+   {
+    "acr": "NAU",
+    "name": "N.Australia",
+    "refuge_pct": 38.8,
+    "dT": 1.21
+   },
+   {
+    "acr": "ESAF",
+    "name": "E.Southern-Africa",
+    "refuge_pct": 36.8,
+    "dT": 1.37
+   },
+   {
+    "acr": "WCE",
+    "name": "West&Central-Europe",
+    "refuge_pct": 35.6,
+    "dT": 1.62
+   },
+   {
+    "acr": "CAU",
+    "name": "C.Australia",
+    "refuge_pct": 34.0,
+    "dT": 1.41
+   },
+   {
+    "acr": "CAR",
+    "name": "Caribbean",
+    "refuge_pct": 27.9,
+    "dT": 1.18
+   },
+   {
+    "acr": "WSB",
+    "name": "W.Siberia",
+    "refuge_pct": 25.8,
+    "dT": 2.02
+   },
+   {
+    "acr": "RAR",
+    "name": "Russian-Arctic",
+    "refuge_pct": 23.6,
+    "dT": 2.77
+   },
+   {
+    "acr": "NSA",
+    "name": "N.South-America",
+    "refuge_pct": 21.4,
+    "dT": 1.4
+   },
+   {
+    "acr": "WSAF",
+    "name": "W.Southern-Africa",
+    "refuge_pct": 21.2,
+    "dT": 1.54
+   },
+   {
+    "acr": "ENA",
+    "name": "E.North-America",
+    "refuge_pct": 19.3,
+    "dT": 1.91
+   },
+   {
+    "acr": "SAM",
+    "name": "South-American-Monsoon",
+    "refuge_pct": 18.2,
+    "dT": 1.54
+   },
+   {
+    "acr": "EEU",
+    "name": "E.Europe",
+    "refuge_pct": 17.1,
+    "dT": 1.84
+   },
+   {
+    "acr": "ARP",
+    "name": "Arabian-Peninsula",
+    "refuge_pct": 15.1,
+    "dT": 1.71
+   },
+   {
+    "acr": "NEN",
+    "name": "N.E.North-America",
+    "refuge_pct": 14.2,
+    "dT": 2.56
+   },
+   {
+    "acr": "CNA",
+    "name": "C.North-America",
+    "refuge_pct": 13.5,
+    "dT": 1.96
+   },
+   {
+    "acr": "WAF",
+    "name": "Western-Africa",
+    "refuge_pct": 12.2,
+    "dT": 1.25
+   },
+   {
+    "acr": "CAF",
+    "name": "Central-Africa",
+    "refuge_pct": 9.5,
+    "dT": 1.2
+   },
+   {
+    "acr": "SAH",
+    "name": "Sahara",
+    "refuge_pct": 4.9,
+    "dT": 1.59
+   }
+  ],
+  "ssp585": [
+   {
+    "acr": "GIC",
+    "name": "Greenland/Iceland",
+    "refuge_pct": 92.0,
+    "dT": 2.45
+   },
+   {
+    "acr": "NZ",
+    "name": "New-Zealand",
+    "refuge_pct": 75.5,
+    "dT": 1.3
+   },
+   {
+    "acr": "SWS",
+    "name": "S.W.South-America",
+    "refuge_pct": 70.6,
+    "dT": 1.72
+   },
+   {
+    "acr": "SSA",
+    "name": "S.South-America",
+    "refuge_pct": 54.5,
+    "dT": 1.24
+   },
+   {
+    "acr": "WNA",
+    "name": "W.North-America",
+    "refuge_pct": 53.6,
+    "dT": 2.45
+   },
+   {
+    "acr": "TIB",
+    "name": "Tibetan-Plateau",
+    "refuge_pct": 49.2,
+    "dT": 2.39
+   },
+   {
+    "acr": "SCA",
+    "name": "S.Central-America",
+    "refuge_pct": 47.8,
+    "dT": 1.8
+   },
+   {
+    "acr": "NWS",
+    "name": "N.W.South-America",
+    "refuge_pct": 45.1,
+    "dT": 1.88
+   },
+   {
+    "acr": "MDG",
+    "name": "Madagascar",
+    "refuge_pct": 40.4,
+    "dT": 1.6
+   },
+   {
+    "acr": "WCA",
+    "name": "W.C.Asia",
+    "refuge_pct": 39.9,
+    "dT": 2.4
+   },
+   {
+    "acr": "ECA",
+    "name": "E.C.Asia",
+    "refuge_pct": 37.6,
+    "dT": 2.47
+   },
+   {
+    "acr": "NEU",
+    "name": "N.Europe",
+    "refuge_pct": 34.7,
+    "dT": 2.2
+   },
+   {
+    "acr": "NCA",
+    "name": "N.Central-America",
+    "refuge_pct": 34.6,
+    "dT": 1.99
+   },
+   {
+    "acr": "SEA",
+    "name": "S.E.Asia",
+    "refuge_pct": 34.5,
+    "dT": 1.6
+   },
+   {
+    "acr": "NWN",
+    "name": "N.W.North-America",
+    "refuge_pct": 33.2,
+    "dT": 2.96
+   },
+   {
+    "acr": "EAU",
+    "name": "E.Australia",
+    "refuge_pct": 29.1,
+    "dT": 1.7
+   },
+   {
+    "acr": "MED",
+    "name": "Mediterranean",
+    "refuge_pct": 28.3,
+    "dT": 2.19
+   },
+   {
+    "acr": "NEAF",
+    "name": "N.Eastern-Africa",
+    "refuge_pct": 25.5,
+    "dT": 1.65
+   },
+   {
+    "acr": "SEAF",
+    "name": "S.Eastern-Africa",
+    "refuge_pct": 24.5,
+    "dT": 1.66
+   },
+   {
+    "acr": "RFE",
+    "name": "Russian-Far-East",
+    "refuge_pct": 22.9,
+    "dT": 2.73
+   },
+   {
+    "acr": "ESB",
+    "name": "E.Siberia",
+    "refuge_pct": 22.8,
+    "dT": 2.58
+   },
+   {
+    "acr": "CAR",
+    "name": "Caribbean",
+    "refuge_pct": 20.1,
+    "dT": 1.66
+   },
+   {
+    "acr": "SAS",
+    "name": "S.Asia",
+    "refuge_pct": 19.8,
+    "dT": 1.73
+   },
+   {
+    "acr": "EAS",
+    "name": "E.Asia",
+    "refuge_pct": 19.1,
+    "dT": 2.26
+   },
+   {
+    "acr": "WCE",
+    "name": "West&Central-Europe",
+    "refuge_pct": 16.7,
+    "dT": 2.34
+   },
+   {
+    "acr": "SES",
+    "name": "S.E.South-America",
+    "refuge_pct": 16.6,
+    "dT": 1.65
+   },
+   {
+    "acr": "ESAF",
+    "name": "E.Southern-Africa",
+    "refuge_pct": 12.3,
+    "dT": 1.87
+   },
+   {
+    "acr": "NAU",
+    "name": "N.Australia",
+    "refuge_pct": 11.6,
+    "dT": 1.66
+   },
+   {
+    "acr": "SAU",
+    "name": "S.Australia",
+    "refuge_pct": 11.6,
+    "dT": 1.51
+   },
+   {
+    "acr": "ARP",
+    "name": "Arabian-Peninsula",
+    "refuge_pct": 10.4,
+    "dT": 2.3
+   },
+   {
+    "acr": "WSB",
+    "name": "W.Siberia",
+    "refuge_pct": 9.8,
+    "dT": 2.9
+   },
+   {
+    "acr": "SAM",
+    "name": "South-American-Monsoon",
+    "refuge_pct": 9.4,
+    "dT": 2.16
+   },
+   {
+    "acr": "NSA",
+    "name": "N.South-America",
+    "refuge_pct": 7.8,
+    "dT": 2.03
+   },
+   {
+    "acr": "WSAF",
+    "name": "W.Southern-Africa",
+    "refuge_pct": 4.3,
+    "dT": 2.07
+   },
+   {
+    "acr": "NEN",
+    "name": "N.E.North-America",
+    "refuge_pct": 3.8,
+    "dT": 3.54
+   },
+   {
+    "acr": "CAU",
+    "name": "C.Australia",
+    "refuge_pct": 3.7,
+    "dT": 1.83
+   },
+   {
+    "acr": "RAR",
+    "name": "Russian-Arctic",
+    "refuge_pct": 3.6,
+    "dT": 3.59
+   },
+   {
+    "acr": "WAF",
+    "name": "Western-Africa",
+    "refuge_pct": 3.2,
+    "dT": 1.65
+   },
+   {
+    "acr": "SAH",
+    "name": "Sahara",
+    "refuge_pct": 2.5,
+    "dT": 2.22
+   },
+   {
+    "acr": "CNA",
+    "name": "C.North-America",
+    "refuge_pct": 2.2,
+    "dT": 2.56
+   },
+   {
+    "acr": "EEU",
+    "name": "E.Europe",
+    "refuge_pct": 2.0,
+    "dT": 2.81
+   },
+   {
+    "acr": "CAF",
+    "name": "Central-Africa",
+    "refuge_pct": 1.9,
+    "dT": 1.64
+   },
+   {
+    "acr": "NES",
+    "name": "N.E.South-America",
+    "refuge_pct": 1.8,
+    "dT": 1.86
+   },
+   {
+    "acr": "ENA",
+    "name": "E.North-America",
+    "refuge_pct": 1.6,
+    "dT": 2.61
+   }
+  ]
+ },
+ "region_table": {
+  "GIC": {
+   "name": "Greenland/Iceland",
+   "sigma": 0.6864157693123417,
+   "dT_ssp126": 1.2585145833333309,
+   "dT_ssp245": 1.576604166666665,
+   "dT_ssp585": 2.4453729166666687,
+   "dT_ssp126_p10": 0.13803333333333292,
+   "dT_ssp245_p10": 0.8820625000000032,
+   "dT_ssp585_p10": 1.4150400000000027,
+   "dT_ssp126_p90": 2.6381829166666737,
+   "dT_ssp245_p90": 3.1221308333333364,
+   "dT_ssp585_p90": 3.8132566666666703
+  },
+  "NWN": {
+   "name": "N.W.North-America",
+   "sigma": 0.7989892966283695,
+   "dT_ssp126": 1.9629375,
+   "dT_ssp245": 2.3567666666666662,
+   "dT_ssp585": 2.96120625,
+   "dT_ssp126_p10": 0.9588362500000002,
+   "dT_ssp245_p10": 1.400112916666667,
+   "dT_ssp585_p10": 2.1229929166666666,
+   "dT_ssp126_p90": 2.864172083333333,
+   "dT_ssp245_p90": 3.1580670833333335,
+   "dT_ssp585_p90": 4.633829166666667
+  },
+  "NEN": {
+   "name": "N.E.North-America",
+   "sigma": 0.6689571933760278,
+   "dT_ssp126": 1.952591666666666,
+   "dT_ssp245": 2.5585250000000004,
+   "dT_ssp585": 3.5362124999999995,
+   "dT_ssp126_p10": 1.2172379166666665,
+   "dT_ssp245_p10": 1.7782908333333343,
+   "dT_ssp585_p10": 2.566767916666667,
+   "dT_ssp126_p90": 3.3758925000000004,
+   "dT_ssp245_p90": 3.8186270833333333,
+   "dT_ssp585_p90": 5.05331
+  },
+  "WNA": {
+   "name": "W.North-America",
+   "sigma": 0.569174637995774,
+   "dT_ssp126": 1.4947125000000003,
+   "dT_ssp245": 1.8405895833333337,
+   "dT_ssp585": 2.4491479166666665,
+   "dT_ssp126_p10": 0.911104999999999,
+   "dT_ssp245_p10": 1.1926783333333324,
+   "dT_ssp585_p10": 1.6754104166666648,
+   "dT_ssp126_p90": 2.1677587500000004,
+   "dT_ssp245_p90": 2.6126279166666673,
+   "dT_ssp585_p90": 3.2402095833333324
+  },
+  "CNA": {
+   "name": "C.North-America",
+   "sigma": 0.6308574111720185,
+   "dT_ssp126": 1.5806645833333333,
+   "dT_ssp245": 1.9578041666666683,
+   "dT_ssp585": 2.5647687500000016,
+   "dT_ssp126_p10": 0.9347670833333357,
+   "dT_ssp245_p10": 1.2928887499999995,
+   "dT_ssp585_p10": 1.8591770833333359,
+   "dT_ssp126_p90": 2.3655383333333337,
+   "dT_ssp245_p90": 2.5593091666666665,
+   "dT_ssp585_p90": 3.3206079166666664
+  },
+  "ENA": {
+   "name": "E.North-America",
+   "sigma": 0.5425138647836205,
+   "dT_ssp126": 1.538535416666667,
+   "dT_ssp245": 1.9070187499999998,
+   "dT_ssp585": 2.6066562500000003,
+   "dT_ssp126_p10": 0.9338787499999999,
+   "dT_ssp245_p10": 1.2807624999999982,
+   "dT_ssp585_p10": 1.8007187499999975,
+   "dT_ssp126_p90": 2.3674750000000007,
+   "dT_ssp245_p90": 2.4708787500000007,
+   "dT_ssp585_p90": 3.2949545833333347
+  },
+  "NCA": {
+   "name": "N.Central-America",
+   "sigma": 0.340606027417986,
+   "dT_ssp126": 1.2025625000000009,
+   "dT_ssp245": 1.5587541666666702,
+   "dT_ssp585": 1.9938895833333348,
+   "dT_ssp126_p10": 0.8249454166666628,
+   "dT_ssp245_p10": 1.1488329166666624,
+   "dT_ssp585_p10": 1.5820166666666649,
+   "dT_ssp126_p90": 1.564305833333334,
+   "dT_ssp245_p90": 1.876867083333331,
+   "dT_ssp585_p90": 2.4873929166666637
+  },
+  "SCA": {
+   "name": "S.Central-America",
+   "sigma": 0.2865452644516089,
+   "dT_ssp126": 1.058175000000002,
+   "dT_ssp245": 1.296412499999997,
+   "dT_ssp585": 1.801383333333332,
+   "dT_ssp126_p10": 0.5972854166666647,
+   "dT_ssp245_p10": 0.9269979166666691,
+   "dT_ssp585_p10": 1.2969495833333309,
+   "dT_ssp126_p90": 1.4965379166666575,
+   "dT_ssp245_p90": 1.7131162499999988,
+   "dT_ssp585_p90": 2.3160654166666643
+  },
+  "CAR": {
+   "name": "Caribbean",
+   "sigma": 0.21175553118057874,
+   "dT_ssp126": 0.9983562500000023,
+   "dT_ssp245": 1.1768083333333355,
+   "dT_ssp585": 1.656466666666665,
+   "dT_ssp126_p10": 0.5361729166666617,
+   "dT_ssp245_p10": 0.790475,
+   "dT_ssp585_p10": 1.0868983333333353,
+   "dT_ssp126_p90": 1.2944899999999997,
+   "dT_ssp245_p90": 1.5680070833333264,
+   "dT_ssp585_p90": 2.002722500000003
+  },
+  "NWS": {
+   "name": "N.W.South-America",
+   "sigma": 0.31957781529381374,
+   "dT_ssp126": 1.0362479166666692,
+   "dT_ssp245": 1.285329166666667,
+   "dT_ssp585": 1.8845625000000013,
+   "dT_ssp126_p10": 0.6691095833333289,
+   "dT_ssp245_p10": 0.9341504166666635,
+   "dT_ssp585_p10": 1.315653333333333,
+   "dT_ssp126_p90": 1.6605704166666644,
+   "dT_ssp245_p90": 2.0113608333333333,
+   "dT_ssp585_p90": 2.7192008333333346
+  },
+  "NSA": {
+   "name": "N.South-America",
+   "sigma": 0.4171279640125933,
+   "dT_ssp126": 1.0709208333333375,
+   "dT_ssp245": 1.4037312499999945,
+   "dT_ssp585": 2.0276374999999973,
+   "dT_ssp126_p10": 0.6994145833333313,
+   "dT_ssp245_p10": 0.988767916666664,
+   "dT_ssp585_p10": 1.496333333333331,
+   "dT_ssp126_p90": 1.7274237499999967,
+   "dT_ssp245_p90": 2.1896808333333317,
+   "dT_ssp585_p90": 3.0509133333333303
+  },
+  "NES": {
+   "name": "N.E.South-America",
+   "sigma": 0.3457198403694939,
+   "dT_ssp126": 1.0228062499999968,
+   "dT_ssp245": 1.2345645833333343,
+   "dT_ssp585": 1.8572395833333335,
+   "dT_ssp126_p10": 0.6736566666666668,
+   "dT_ssp245_p10": 0.9778787500000025,
+   "dT_ssp585_p10": 1.3716329166666643,
+   "dT_ssp126_p90": 1.5479629166666589,
+   "dT_ssp245_p90": 1.779602083333332,
+   "dT_ssp585_p90": 2.484454166666662
+  },
+  "SAM": {
+   "name": "South-American-Monsoon",
+   "sigma": 0.3883451692701948,
+   "dT_ssp126": 1.1964583333333305,
+   "dT_ssp245": 1.5420770833333357,
+   "dT_ssp585": 2.1576770833333345,
+   "dT_ssp126_p10": 0.791449166666667,
+   "dT_ssp245_p10": 1.1768116666666633,
+   "dT_ssp585_p10": 1.7352920833333325,
+   "dT_ssp126_p90": 1.9935254166666665,
+   "dT_ssp245_p90": 2.276395833333335,
+   "dT_ssp585_p90": 3.215259583333339
+  },
+  "SWS": {
+   "name": "S.W.South-America",
+   "sigma": 0.27619432990580844,
+   "dT_ssp126": 0.9250666666666669,
+   "dT_ssp245": 1.3025333333333355,
+   "dT_ssp585": 1.7159770833333337,
+   "dT_ssp126_p10": 0.6500954166666665,
+   "dT_ssp245_p10": 0.9637145833333323,
+   "dT_ssp585_p10": 1.3777229166666665,
+   "dT_ssp126_p90": 1.4872895833333353,
+   "dT_ssp245_p90": 1.7599220833333322,
+   "dT_ssp585_p90": 2.4493191666666654
+  },
+  "SES": {
+   "name": "S.E.South-America",
+   "sigma": 0.36047716064366686,
+   "dT_ssp126": 0.9641520833333335,
+   "dT_ssp245": 1.2045541666666644,
+   "dT_ssp585": 1.6547458333333331,
+   "dT_ssp126_p10": 0.6030779166666687,
+   "dT_ssp245_p10": 0.8320662500000064,
+   "dT_ssp585_p10": 1.2289054166666695,
+   "dT_ssp126_p90": 1.349277083333333,
+   "dT_ssp245_p90": 1.6691958333333339,
+   "dT_ssp585_p90": 2.3515204166666726
+  },
+  "SSA": {
+   "name": "S.South-America",
+   "sigma": 0.333258745878147,
+   "dT_ssp126": 0.6774395833333346,
+   "dT_ssp245": 0.8611270833333329,
+   "dT_ssp585": 1.241510416666666,
+   "dT_ssp126_p10": 0.39842124999999884,
+   "dT_ssp245_p10": 0.6199883333333343,
+   "dT_ssp585_p10": 0.8689020833333336,
+   "dT_ssp126_p90": 1.0589425000000006,
+   "dT_ssp245_p90": 1.290933333333334,
+   "dT_ssp585_p90": 1.7151270833333323
+  },
+  "NEU": {
+   "name": "N.Europe",
+   "sigma": 0.7215601071968525,
+   "dT_ssp126": 1.1528562500000001,
+   "dT_ssp245": 1.5637875000000003,
+   "dT_ssp585": 2.1972958333333334,
+   "dT_ssp126_p10": 0.5057570833333337,
+   "dT_ssp245_p10": 1.0048395833333341,
+   "dT_ssp585_p10": 1.2589625,
+   "dT_ssp126_p90": 2.3084608333333336,
+   "dT_ssp245_p90": 2.745797916666666,
+   "dT_ssp585_p90": 3.250084583333333
+  },
+  "WCE": {
+   "name": "West&Central-Europe",
+   "sigma": 0.6782419357447685,
+   "dT_ssp126": 1.3633166666666678,
+   "dT_ssp245": 1.6151666666666653,
+   "dT_ssp585": 2.339797916666667,
+   "dT_ssp126_p10": 0.7542433333333335,
+   "dT_ssp245_p10": 1.274314166666668,
+   "dT_ssp585_p10": 1.6212783333333316,
+   "dT_ssp126_p90": 2.1491245833333323,
+   "dT_ssp245_p90": 2.4851195833333337,
+   "dT_ssp585_p90": 3.0524270833333333
+  },
+  "EEU": {
+   "name": "E.Europe",
+   "sigma": 0.8648000643782778,
+   "dT_ssp126": 1.6117937499999995,
+   "dT_ssp245": 1.8444937500000003,
+   "dT_ssp585": 2.8133375000000003,
+   "dT_ssp126_p10": 0.7963912499999998,
+   "dT_ssp245_p10": 1.5124208333333327,
+   "dT_ssp585_p10": 2.0446508333333324,
+   "dT_ssp126_p90": 2.4864070833333325,
+   "dT_ssp245_p90": 2.879902083333335,
+   "dT_ssp585_p90": 3.8062433333333336
+  },
+  "MED": {
+   "name": "Mediterranean",
+   "sigma": 0.3540896813075167,
+   "dT_ssp126": 1.2385520833333352,
+   "dT_ssp245": 1.5394208333333363,
+   "dT_ssp585": 2.1853020833333314,
+   "dT_ssp126_p10": 0.8471070833333327,
+   "dT_ssp245_p10": 1.2247266666666665,
+   "dT_ssp585_p10": 1.5830900000000008,
+   "dT_ssp126_p90": 1.8384504166666629,
+   "dT_ssp245_p90": 2.1437766666666644,
+   "dT_ssp585_p90": 2.8413729166666655
+  },
+  "SAH": {
+   "name": "Sahara",
+   "sigma": 0.3240412824903047,
+   "dT_ssp126": 1.2553874999999959,
+   "dT_ssp245": 1.587883333333334,
+   "dT_ssp585": 2.224677083333333,
+   "dT_ssp126_p10": 0.7988995833333309,
+   "dT_ssp245_p10": 1.2553725000000022,
+   "dT_ssp585_p10": 1.5721570833333314,
+   "dT_ssp126_p90": 1.7671420833333291,
+   "dT_ssp245_p90": 2.1388670833333276,
+   "dT_ssp585_p90": 2.9051858333333316
+  },
+  "WAF": {
+   "name": "Western-Africa",
+   "sigma": 0.3215098084580616,
+   "dT_ssp126": 1.0031520833333296,
+   "dT_ssp245": 1.2456645833333333,
+   "dT_ssp585": 1.6481666666666648,
+   "dT_ssp126_p10": 0.6691454166666695,
+   "dT_ssp245_p10": 0.8695849999999965,
+   "dT_ssp585_p10": 0.9406841666666677,
+   "dT_ssp126_p90": 1.540310833333335,
+   "dT_ssp245_p90": 1.737607083333328,
+   "dT_ssp585_p90": 2.3556041666666627
+  },
+  "CAF": {
+   "name": "Central-Africa",
+   "sigma": 0.28684673314167053,
+   "dT_ssp126": 0.9649562499999984,
+   "dT_ssp245": 1.2026354166666628,
+   "dT_ssp585": 1.6361374999999985,
+   "dT_ssp126_p10": 0.5784737499999963,
+   "dT_ssp245_p10": 0.8066195833333353,
+   "dT_ssp585_p10": 0.7023937499999986,
+   "dT_ssp126_p90": 1.5263666666666655,
+   "dT_ssp245_p90": 1.707932500000004,
+   "dT_ssp585_p90": 2.449031666666667
+  },
+  "NEAF": {
+   "name": "N.Eastern-Africa",
+   "sigma": 0.28473027661767913,
+   "dT_ssp126": 1.0174437499999947,
+   "dT_ssp245": 1.2162270833333348,
+   "dT_ssp585": 1.6454791666666644,
+   "dT_ssp126_p10": 0.7084995833333334,
+   "dT_ssp245_p10": 0.9515595833333308,
+   "dT_ssp585_p10": 1.1402108333333327,
+   "dT_ssp126_p90": 1.5491787499999998,
+   "dT_ssp245_p90": 1.744197499999998,
+   "dT_ssp585_p90": 2.2027983333333303
+  },
+  "SEAF": {
+   "name": "S.Eastern-Africa",
+   "sigma": 0.25851264698742366,
+   "dT_ssp126": 0.9677145833333327,
+   "dT_ssp245": 1.2130125000000014,
+   "dT_ssp585": 1.6595687499999983,
+   "dT_ssp126_p10": 0.6498837500000008,
+   "dT_ssp245_p10": 0.88291125,
+   "dT_ssp585_p10": 1.1226670833333323,
+   "dT_ssp126_p90": 1.4541300000000004,
+   "dT_ssp245_p90": 1.629831249999998,
+   "dT_ssp585_p90": 2.140587083333334
+  },
+  "WSAF": {
+   "name": "W.Southern-Africa",
+   "sigma": 0.3959773959718633,
+   "dT_ssp126": 1.0922499999999982,
+   "dT_ssp245": 1.5404562499999965,
+   "dT_ssp585": 2.067591666666665,
+   "dT_ssp126_p10": 0.7053520833333333,
+   "dT_ssp245_p10": 1.0693391666666674,
+   "dT_ssp585_p10": 1.575970833333336,
+   "dT_ssp126_p90": 1.8332862499999996,
+   "dT_ssp245_p90": 2.141740416666665,
+   "dT_ssp585_p90": 2.801789999999998
+  },
+  "ESAF": {
+   "name": "E.Southern-Africa",
+   "sigma": 0.3505298415003006,
+   "dT_ssp126": 1.0390125000000001,
+   "dT_ssp245": 1.3695062500000024,
+   "dT_ssp585": 1.8689187499999989,
+   "dT_ssp126_p10": 0.7067345833333348,
+   "dT_ssp245_p10": 0.9978770833333342,
+   "dT_ssp585_p10": 1.397480833333336,
+   "dT_ssp126_p90": 1.6707316666666667,
+   "dT_ssp245_p90": 1.9312083333333367,
+   "dT_ssp585_p90": 2.4326691666666633
+  },
+  "MDG": {
+   "name": "Madagascar",
+   "sigma": 0.2653047010432165,
+   "dT_ssp126": 0.8957479166666698,
+   "dT_ssp245": 1.1195854166666663,
+   "dT_ssp585": 1.597835416666669,
+   "dT_ssp126_p10": 0.6001116666666704,
+   "dT_ssp245_p10": 0.85453458333333,
+   "dT_ssp585_p10": 1.1790979166666702,
+   "dT_ssp126_p90": 1.257980833333331,
+   "dT_ssp245_p90": 1.5498066666666697,
+   "dT_ssp585_p90": 2.024821249999996
+  },
+  "RAR": {
+   "name": "Russian-Arctic",
+   "sigma": 0.747750723304986,
+   "dT_ssp126": 2.223935416666667,
+   "dT_ssp245": 2.7694312500000002,
+   "dT_ssp585": 3.5939104166666684,
+   "dT_ssp126_p10": 0.8384370833333346,
+   "dT_ssp245_p10": 1.6138554166666663,
+   "dT_ssp585_p10": 2.5977379166666656,
+   "dT_ssp126_p90": 3.2197462500000005,
+   "dT_ssp245_p90": 4.139793750000001,
+   "dT_ssp585_p90": 5.08658125
+  },
+  "WSB": {
+   "name": "W.Siberia",
+   "sigma": 0.7792123418677677,
+   "dT_ssp126": 1.6104354166666677,
+   "dT_ssp245": 2.020766666666667,
+   "dT_ssp585": 2.902704166666666,
+   "dT_ssp126_p10": 1.0959749999999995,
+   "dT_ssp245_p10": 1.4579554166666655,
+   "dT_ssp585_p10": 2.031635833333334,
+   "dT_ssp126_p90": 2.5877437499999996,
+   "dT_ssp245_p90": 3.0848154166666664,
+   "dT_ssp585_p90": 3.9902349999999998
+  },
+  "ESB": {
+   "name": "E.Siberia",
+   "sigma": 0.6765666372728398,
+   "dT_ssp126": 1.5537083333333324,
+   "dT_ssp245": 1.9984062500000004,
+   "dT_ssp585": 2.5840666666666667,
+   "dT_ssp126_p10": 1.0395949999999998,
+   "dT_ssp245_p10": 1.3761866666666664,
+   "dT_ssp585_p10": 1.9462987500000002,
+   "dT_ssp126_p90": 2.374577916666667,
+   "dT_ssp245_p90": 2.89873,
+   "dT_ssp585_p90": 3.9034004166666665
+  },
+  "RFE": {
+   "name": "Russian-Far-East",
+   "sigma": 0.5837101450022717,
+   "dT_ssp126": 1.5986875000000003,
+   "dT_ssp245": 1.9475229166666668,
+   "dT_ssp585": 2.733847916666667,
+   "dT_ssp126_p10": 0.9012341666666666,
+   "dT_ssp245_p10": 1.2836466666666662,
+   "dT_ssp585_p10": 1.9067212499999997,
+   "dT_ssp126_p90": 2.7649270833333324,
+   "dT_ssp245_p90": 3.407691249999999,
+   "dT_ssp585_p90": 4.503529583333332
+  },
+  "WCA": {
+   "name": "W.C.Asia",
+   "sigma": 0.4581805706293952,
+   "dT_ssp126": 1.2987749999999973,
+   "dT_ssp245": 1.7347916666666672,
+   "dT_ssp585": 2.3961354166666684,
+   "dT_ssp126_p10": 0.8633516666666667,
+   "dT_ssp245_p10": 1.2466804166666696,
+   "dT_ssp585_p10": 1.7151937499999967,
+   "dT_ssp126_p90": 2.2484041666666665,
+   "dT_ssp245_p90": 2.442097499999999,
+   "dT_ssp585_p90": 3.3014154166666665
+  },
+  "ECA": {
+   "name": "E.C.Asia",
+   "sigma": 0.4733371221625884,
+   "dT_ssp126": 1.4607812499999988,
+   "dT_ssp245": 1.7535145833333354,
+   "dT_ssp585": 2.4726645833333336,
+   "dT_ssp126_p10": 1.0050649999999997,
+   "dT_ssp245_p10": 1.2557341666666675,
+   "dT_ssp585_p10": 1.7559275000000003,
+   "dT_ssp126_p90": 2.0976754166666653,
+   "dT_ssp245_p90": 2.4056779166666646,
+   "dT_ssp585_p90": 3.3345308333333317
+  },
+  "TIB": {
+   "name": "Tibetan-Plateau",
+   "sigma": 0.42072726556705725,
+   "dT_ssp126": 1.4596416666666667,
+   "dT_ssp245": 1.7697104166666668,
+   "dT_ssp585": 2.3910875000000003,
+   "dT_ssp126_p10": 0.9615229166666667,
+   "dT_ssp245_p10": 1.2709449999999998,
+   "dT_ssp585_p10": 1.5970054166666665,
+   "dT_ssp126_p90": 1.8352187500000001,
+   "dT_ssp245_p90": 2.1274908333333333,
+   "dT_ssp585_p90": 3.0458641666666666
+  },
+  "EAS": {
+   "name": "E.Asia",
+   "sigma": 0.33731221016365304,
+   "dT_ssp126": 1.5009333333333315,
+   "dT_ssp245": 1.6121020833333333,
+   "dT_ssp585": 2.2605687499999965,
+   "dT_ssp126_p10": 0.9377370833333345,
+   "dT_ssp245_p10": 1.1705725000000022,
+   "dT_ssp585_p10": 1.565154999999998,
+   "dT_ssp126_p90": 2.1298075,
+   "dT_ssp245_p90": 2.2813545833333344,
+   "dT_ssp585_p90": 2.9719079166666673
+  },
+  "ARP": {
+   "name": "Arabian-Peninsula",
+   "sigma": 0.312116453095059,
+   "dT_ssp126": 1.4319062500000044,
+   "dT_ssp245": 1.7065916666666663,
+   "dT_ssp585": 2.3029999999999973,
+   "dT_ssp126_p10": 0.8805429166666624,
+   "dT_ssp245_p10": 1.2189395833333332,
+   "dT_ssp585_p10": 1.6464687499999926,
+   "dT_ssp126_p90": 1.858132499999999,
+   "dT_ssp245_p90": 2.2188437499999987,
+   "dT_ssp585_p90": 3.033005416666661
+  },
+  "SAS": {
+   "name": "S.Asia",
+   "sigma": 0.3253765260724707,
+   "dT_ssp126": 1.0747145833333338,
+   "dT_ssp245": 1.1816562500000014,
+   "dT_ssp585": 1.7271249999999956,
+   "dT_ssp126_p10": 0.7480316666666621,
+   "dT_ssp245_p10": 0.916254166666668,
+   "dT_ssp585_p10": 1.1085362500000044,
+   "dT_ssp126_p90": 1.5912866666666658,
+   "dT_ssp245_p90": 1.863536666666664,
+   "dT_ssp585_p90": 2.3939904166666652
+  },
+  "SEA": {
+   "name": "S.E.Asia",
+   "sigma": 0.20529972113665548,
+   "dT_ssp126": 0.9059666666666661,
+   "dT_ssp245": 1.0999916666666625,
+   "dT_ssp585": 1.5989708333333326,
+   "dT_ssp126_p10": 0.6087129166666674,
+   "dT_ssp245_p10": 0.8145958333333361,
+   "dT_ssp585_p10": 1.1112650000000006,
+   "dT_ssp126_p90": 1.340465416666662,
+   "dT_ssp245_p90": 1.5643375000000037,
+   "dT_ssp585_p90": 1.969867499999999
+  },
+  "NAU": {
+   "name": "N.Australia",
+   "sigma": 0.47438458187514515,
+   "dT_ssp126": 0.9926187500000001,
+   "dT_ssp245": 1.2144208333333353,
+   "dT_ssp585": 1.6568812499999996,
+   "dT_ssp126_p10": 0.6642708333333353,
+   "dT_ssp245_p10": 0.8959879166666681,
+   "dT_ssp585_p10": 1.2515574999999988,
+   "dT_ssp126_p90": 1.388408750000003,
+   "dT_ssp245_p90": 1.813583333333328,
+   "dT_ssp585_p90": 2.373491250000001
+  },
+  "CAU": {
+   "name": "C.Australia",
+   "sigma": 0.5105483968946088,
+   "dT_ssp126": 1.0223354166666603,
+   "dT_ssp245": 1.4109687499999986,
+   "dT_ssp585": 1.830829166666664,
+   "dT_ssp126_p10": 0.6947108333333276,
+   "dT_ssp245_p10": 1.1095225000000013,
+   "dT_ssp585_p10": 1.5011824999999965,
+   "dT_ssp126_p90": 1.6690875000000038,
+   "dT_ssp245_p90": 1.9617691666666672,
+   "dT_ssp585_p90": 2.6262300000000005
+  },
+  "EAU": {
+   "name": "E.Australia",
+   "sigma": 0.4730547150123228,
+   "dT_ssp126": 0.8903999999999996,
+   "dT_ssp245": 1.2789979166666647,
+   "dT_ssp585": 1.7014604166666683,
+   "dT_ssp126_p10": 0.7333237499999985,
+   "dT_ssp245_p10": 0.9678174999999996,
+   "dT_ssp585_p10": 1.2929608333333336,
+   "dT_ssp126_p90": 1.4156320833333393,
+   "dT_ssp245_p90": 1.7667487499999992,
+   "dT_ssp585_p90": 2.43920791666667
+  },
+  "SAU": {
+   "name": "S.Australia",
+   "sigma": 0.3257529204400033,
+   "dT_ssp126": 0.839083333333333,
+   "dT_ssp245": 1.1379187500000043,
+   "dT_ssp585": 1.5090458333333316,
+   "dT_ssp126_p10": 0.49552708333333334,
+   "dT_ssp245_p10": 0.8471962499999987,
+   "dT_ssp585_p10": 1.1492570833333318,
+   "dT_ssp126_p90": 1.2999341666666675,
+   "dT_ssp245_p90": 1.5338162499999988,
+   "dT_ssp585_p90": 2.149537916666667
+  },
+  "NZ": {
+   "name": "New-Zealand",
+   "sigma": 0.31328098955838957,
+   "dT_ssp126": 0.7809583333333334,
+   "dT_ssp245": 0.998145833333334,
+   "dT_ssp585": 1.3009270833333337,
+   "dT_ssp126_p10": 0.45855666666666595,
+   "dT_ssp245_p10": 0.6419179166666644,
+   "dT_ssp585_p10": 0.9698837499999996,
+   "dT_ssp126_p90": 1.1086883333333333,
+   "dT_ssp245_p90": 1.4166358333333353,
+   "dT_ssp585_p90": 1.7824695833333344
+  },
+  "EAN": {
+   "name": "E.Antarctica",
+   "sigma": 0.4815788261533685,
+   "dT_ssp126": 1.068224999999991,
+   "dT_ssp245": 1.3249499999999994,
+   "dT_ssp585": 1.631406249999996,
+   "dT_ssp126_p10": 0.5386650000000011,
+   "dT_ssp245_p10": 0.8270999999999994,
+   "dT_ssp585_p10": 1.2103791666666663,
+   "dT_ssp126_p90": 1.5482983333333316,
+   "dT_ssp245_p90": 1.8743145833333343,
+   "dT_ssp585_p90": 2.483979583333327
+  },
+  "WAN": {
+   "name": "W.Antarctica",
+   "sigma": 0.6611093733660238,
+   "dT_ssp126": 1.0943916666666667,
+   "dT_ssp245": 1.4453604166666665,
+   "dT_ssp585": 1.8671187499999995,
+   "dT_ssp126_p10": 0.31843999999999684,
+   "dT_ssp245_p10": 0.5657295833333305,
+   "dT_ssp585_p10": 1.015236666666665,
+   "dT_ssp126_p90": 1.8689345833333335,
+   "dT_ssp245_p90": 2.2928579166666645,
+   "dT_ssp585_p90": 2.886444166666669
+  }
+ },
+ "class_breaks": [
+  0.3207296984903111,
+  0.4349870361443092,
+  0.5591252328933874,
+  0.6904527205484093
+ ],
+ "class_names": [
+  "Highly exposed",
+  "Exposed",
+  "Transitional",
+  "Moderate refugium",
+  "Strong refugium"
+ ],
+ "rich_terciles": [
+  143.0,
+  253.0
+ ],
+ "refuge_terciles": [
+  0.4080547695069819,
+  0.5966929776650528
+ ],
+ "species_counts": {
+  "amphibians": 6393,
+  "birds": 9899,
+  "mammals": 5281,
+  "reptiles": 10064
+ },
+ "threatened_species": 4335,
+ "biv_colors": [
+  "#2c3140",
+  "#2b7372",
+  "#2bb5a5",
+  "#80406d",
+  "#7f829f",
+  "#7fc4d2",
+  "#d4509a",
+  "#d392cc",
+  "#e9fbff"
+ ],
+ "palettes": {
+  "index": [
+   [
+    0.0,
+    "#b2182b"
+   ],
+   [
+    0.25,
+    "#e0714f"
+   ],
+   [
+    0.5,
+    "#5b5f66"
+   ],
+   [
+    0.75,
+    "#3aa7a0"
+   ],
+   [
+    1.0,
+    "#9ff0d8"
+   ]
+  ],
+  "dt": [
+   [
+    0.0,
+    "#2b2a33"
+   ],
+   [
+    0.25,
+    "#6b2f45"
+   ],
+   [
+    0.5,
+    "#b3403f"
+   ],
+   [
+    0.75,
+    "#e8823a"
+   ],
+   [
+    1.0,
+    "#ffe08a"
+   ]
+  ],
+  "vel": [
+   [
+    0.0,
+    "#1f2a44"
+   ],
+   [
+    0.33,
+    "#3b4f8f"
+   ],
+   [
+    0.66,
+    "#8a6cc9"
+   ],
+   [
+    1.0,
+    "#f3c6ff"
+   ]
+  ],
+  "relief": [
+   [
+    0.0,
+    "#22272e"
+   ],
+   [
+    0.4,
+    "#5a5f55"
+   ],
+   [
+    0.75,
+    "#b6ab84"
+   ],
+   [
+    1.0,
+    "#fff3cf"
+   ]
+  ],
+  "rich": [
+   [
+    0.0,
+    "#1d2b2a"
+   ],
+   [
+    0.35,
+    "#1f6150"
+   ],
+   [
+    0.7,
+    "#43b27f"
+   ],
+   [
+    1.0,
+    "#e9ffb5"
+   ]
+  ],
+  "thr": [
+   [
+    0.0,
+    "#2a2230"
+   ],
+   [
+    0.35,
+    "#5d2f63"
+   ],
+   [
+    0.7,
+    "#b04c8f"
+   ],
+   [
+    1.0,
+    "#ffc4e6"
+   ]
+  ]
+ },
+ "ranges": {
+  "dt": [
+   0.5,
+   3.5
+  ],
+  "lvel": [
+   -1.5,
+   1.5
+  ],
+  "relief_max": 3000,
+  "rich_max": 975.3000000000029,
+  "thr_max": 52.0
+ },
+ "hotspots": [
+  {
+   "id": 0,
+   "name": "Atlantic Forest",
+   "cells": 3918,
+   "richness": 716,
+   "threatened": 33,
+   "relief_m": 325,
+   "dT_ssp126": 0.99,
+   "vel_ssp126": 1.366,
+   "refuge_ssp126": 89.0,
+   "exposed_ssp126": 3.1,
+   "index_ssp126": 0.728,
+   "dT_ssp245": 1.23,
+   "vel_ssp245": 1.691,
+   "refuge_ssp245": 69.6,
+   "exposed_ssp245": 11.2,
+   "index_ssp245": 0.618,
+   "dT_ssp585": 1.74,
+   "vel_ssp585": 2.392,
+   "refuge_ssp585": 14.9,
+   "exposed_ssp585": 51.5,
+   "index_ssp585": 0.415
+  },
+  {
+   "id": 1,
+   "name": "California Floristic Province",
+   "cells": 1189,
+   "richness": 254,
+   "threatened": 6,
+   "relief_m": 1024,
+   "dT_ssp126": 1.45,
+   "vel_ssp126": 0.843,
+   "refuge_ssp126": 94.4,
+   "exposed_ssp126": 1.4,
+   "index_ssp126": 0.828,
+   "dT_ssp245": 1.8,
+   "vel_ssp245": 1.046,
+   "refuge_ssp245": 87.4,
+   "exposed_ssp245": 5.1,
+   "index_ssp245": 0.727,
+   "dT_ssp585": 2.38,
+   "vel_ssp585": 1.383,
+   "refuge_ssp585": 60.3,
+   "exposed_ssp585": 18.8,
+   "index_ssp585": 0.559
+  },
+  {
+   "id": 2,
+   "name": "Cape Floristic Region",
+   "cells": 275,
+   "richness": 378,
+   "threatened": 15,
+   "relief_m": 601,
+   "dT_ssp126": 1.09,
+   "vel_ssp126": 0.981,
+   "refuge_ssp126": 96.0,
+   "exposed_ssp126": 0.7,
+   "index_ssp126": 0.802,
+   "dT_ssp245": 1.52,
+   "vel_ssp245": 1.375,
+   "refuge_ssp245": 70.9,
+   "exposed_ssp245": 12.7,
+   "index_ssp245": 0.601,
+   "dT_ssp585": 2.05,
+   "vel_ssp585": 1.848,
+   "refuge_ssp585": 31.6,
+   "exposed_ssp585": 31.6,
+   "index_ssp585": 0.475
+  },
+  {
+   "id": 3,
+   "name": "Caribbean Islands",
+   "cells": 819,
+   "richness": 149,
+   "threatened": 9,
+   "relief_m": 392,
+   "dT_ssp126": 1.06,
+   "vel_ssp126": 1.759,
+   "refuge_ssp126": 39.2,
+   "exposed_ssp126": 36.9,
+   "index_ssp126": 0.475,
+   "dT_ssp245": 1.26,
+   "vel_ssp245": 2.095,
+   "refuge_ssp245": 27.5,
+   "exposed_ssp245": 52.0,
+   "index_ssp245": 0.403,
+   "dT_ssp585": 1.77,
+   "vel_ssp585": 2.937,
+   "refuge_ssp585": 20.0,
+   "exposed_ssp585": 61.3,
+   "index_ssp585": 0.345
+  },
+  {
+   "id": 4,
+   "name": "Caucasus",
+   "cells": 2072,
+   "richness": 260,
+   "threatened": 7,
+   "relief_m": 940,
+   "dT_ssp126": 1.36,
+   "vel_ssp126": 0.918,
+   "refuge_ssp126": 78.9,
+   "exposed_ssp126": 4.5,
+   "index_ssp126": 0.776,
+   "dT_ssp245": 1.72,
+   "vel_ssp245": 1.164,
+   "refuge_ssp245": 69.2,
+   "exposed_ssp245": 12.0,
+   "index_ssp245": 0.679,
+   "dT_ssp585": 2.45,
+   "vel_ssp585": 1.655,
+   "refuge_ssp585": 49.9,
+   "exposed_ssp585": 39.7,
+   "index_ssp585": 0.486
+  },
+  {
+   "id": 5,
+   "name": "Cerrado",
+   "cells": 6952,
+   "richness": 687,
+   "threatened": 27,
+   "relief_m": 194,
+   "dT_ssp126": 1.07,
+   "vel_ssp126": 2.413,
+   "refuge_ssp126": 66.9,
+   "exposed_ssp126": 13.0,
+   "index_ssp126": 0.609,
+   "dT_ssp245": 1.33,
+   "vel_ssp245": 3.003,
+   "refuge_ssp245": 32.7,
+   "exposed_ssp245": 37.7,
+   "index_ssp245": 0.475,
+   "dT_ssp585": 1.92,
+   "vel_ssp585": 4.332,
+   "refuge_ssp585": 1.0,
+   "exposed_ssp585": 85.9,
+   "index_ssp585": 0.285
+  },
+  {
+   "id": 6,
+   "name": "Chilean Winter Rainfall and Valdivian Forests",
+   "cells": 1639,
+   "richness": 138,
+   "threatened": 5,
+   "relief_m": 991,
+   "dT_ssp126": 0.89,
+   "vel_ssp126": 0.501,
+   "refuge_ssp126": 96.8,
+   "exposed_ssp126": 1.2,
+   "index_ssp126": 0.832,
+   "dT_ssp245": 1.22,
+   "vel_ssp245": 0.685,
+   "refuge_ssp245": 80.6,
+   "exposed_ssp245": 8.5,
+   "index_ssp245": 0.66,
+   "dT_ssp585": 1.63,
+   "vel_ssp585": 0.918,
+   "refuge_ssp585": 63.1,
+   "exposed_ssp585": 18.2,
+   "index_ssp585": 0.557
+  },
+  {
+   "id": 7,
+   "name": "Coastal Forests of Eastern Africa",
+   "cells": 1007,
+   "richness": 490,
+   "threatened": 14,
+   "relief_m": 164,
+   "dT_ssp126": 1.0,
+   "vel_ssp126": 2.121,
+   "refuge_ssp126": 55.6,
+   "exposed_ssp126": 23.5,
+   "index_ssp126": 0.56,
+   "dT_ssp245": 1.29,
+   "vel_ssp245": 2.731,
+   "refuge_ssp245": 14.8,
+   "exposed_ssp245": 53.4,
+   "index_ssp245": 0.396,
+   "dT_ssp585": 1.77,
+   "vel_ssp585": 3.738,
+   "refuge_ssp585": 2.0,
+   "exposed_ssp585": 81.3,
+   "index_ssp585": 0.284
+  },
+  {
+   "id": 8,
+   "name": "East Melanesian Islands",
+   "cells": 357,
+   "richness": 148,
+   "threatened": 8,
+   "relief_m": 615,
+   "dT_ssp126": 0.93,
+   "vel_ssp126": 1.012,
+   "refuge_ssp126": 82.1,
+   "exposed_ssp126": 9.0,
+   "index_ssp126": 0.696,
+   "dT_ssp245": 1.14,
+   "vel_ssp245": 1.236,
+   "refuge_ssp245": 71.4,
+   "exposed_ssp245": 13.7,
+   "index_ssp245": 0.622,
+   "dT_ssp585": 1.61,
+   "vel_ssp585": 1.743,
+   "refuge_ssp585": 53.5,
+   "exposed_ssp585": 30.8,
+   "index_ssp585": 0.512
+  },
+  {
+   "id": 9,
+   "name": "Eastern Afromontane",
+   "cells": 3612,
+   "richness": 569,
+   "threatened": 17,
+   "relief_m": 913,
+   "dT_ssp126": 1.05,
+   "vel_ssp126": 0.558,
+   "refuge_ssp126": 94.2,
+   "exposed_ssp126": 2.1,
+   "index_ssp126": 0.753,
+   "dT_ssp245": 1.29,
+   "vel_ssp245": 0.684,
+   "refuge_ssp245": 85.5,
+   "exposed_ssp245": 5.6,
+   "index_ssp245": 0.642,
+   "dT_ssp585": 1.75,
+   "vel_ssp585": 0.93,
+   "refuge_ssp585": 68.2,
+   "exposed_ssp585": 11.0,
+   "index_ssp585": 0.57
+  },
+  {
+   "id": 10,
+   "name": "Forests of East Australia",
+   "cells": 1011,
+   "richness": 451,
+   "threatened": 15,
+   "relief_m": 387,
+   "dT_ssp126": 0.89,
+   "vel_ssp126": 0.82,
+   "refuge_ssp126": 99.0,
+   "exposed_ssp126": 0.1,
+   "index_ssp126": 0.84,
+   "dT_ssp245": 1.25,
+   "vel_ssp245": 1.148,
+   "refuge_ssp245": 95.2,
+   "exposed_ssp245": 0.6,
+   "index_ssp245": 0.761,
+   "dT_ssp585": 1.66,
+   "vel_ssp585": 1.527,
+   "refuge_ssp585": 69.3,
+   "exposed_ssp585": 9.1,
+   "index_ssp585": 0.604
+  },
+  {
+   "id": 11,
+   "name": "Guinean Forests of West Africa",
+   "cells": 2203,
+   "richness": 619,
+   "threatened": 27,
+   "relief_m": 260,
+   "dT_ssp126": 1.0,
+   "vel_ssp126": 2.083,
+   "refuge_ssp126": 60.0,
+   "exposed_ssp126": 16.5,
+   "index_ssp126": 0.601,
+   "dT_ssp245": 1.25,
+   "vel_ssp245": 2.588,
+   "refuge_ssp245": 28.6,
+   "exposed_ssp245": 47.4,
+   "index_ssp245": 0.451,
+   "dT_ssp585": 1.65,
+   "vel_ssp585": 3.436,
+   "refuge_ssp585": 10.1,
+   "exposed_ssp585": 71.6,
+   "index_ssp585": 0.325
+  },
+  {
+   "id": 12,
+   "name": "Himalaya",
+   "cells": 2573,
+   "richness": 436,
+   "threatened": 20,
+   "relief_m": 1579,
+   "dT_ssp126": 1.32,
+   "vel_ssp126": 0.353,
+   "refuge_ssp126": 98.6,
+   "exposed_ssp126": 0.4,
+   "index_ssp126": 0.833,
+   "dT_ssp245": 1.57,
+   "vel_ssp245": 0.421,
+   "refuge_ssp245": 93.6,
+   "exposed_ssp245": 1.3,
+   "index_ssp245": 0.72,
+   "dT_ssp585": 2.17,
+   "vel_ssp585": 0.583,
+   "refuge_ssp585": 81.0,
+   "exposed_ssp585": 7.0,
+   "index_ssp585": 0.619
+  },
+  {
+   "id": 13,
+   "name": "Horn of Africa",
+   "cells": 5074,
+   "richness": 244,
+   "threatened": 8,
+   "relief_m": 443,
+   "dT_ssp126": 1.11,
+   "vel_ssp126": 1.334,
+   "refuge_ssp126": 63.5,
+   "exposed_ssp126": 17.1,
+   "index_ssp126": 0.588,
+   "dT_ssp245": 1.33,
+   "vel_ssp245": 1.607,
+   "refuge_ssp245": 38.4,
+   "exposed_ssp245": 34.2,
+   "index_ssp245": 0.485,
+   "dT_ssp585": 1.81,
+   "vel_ssp585": 2.18,
+   "refuge_ssp585": 23.5,
+   "exposed_ssp585": 52.2,
+   "index_ssp585": 0.408
+  },
+  {
+   "id": 14,
+   "name": "Indo-Burma",
+   "cells": 7603,
+   "richness": 564,
+   "threatened": 28,
+   "relief_m": 516,
+   "dT_ssp126": 1.09,
+   "vel_ssp126": 1.242,
+   "refuge_ssp126": 60.1,
+   "exposed_ssp126": 21.7,
+   "index_ssp126": 0.572,
+   "dT_ssp245": 1.25,
+   "vel_ssp245": 1.427,
+   "refuge_ssp245": 47.4,
+   "exposed_ssp245": 30.3,
+   "index_ssp245": 0.508,
+   "dT_ssp585": 1.8,
+   "vel_ssp585": 2.053,
+   "refuge_ssp585": 27.1,
+   "exposed_ssp585": 43.8,
+   "index_ssp585": 0.427
+  },
+  {
+   "id": 15,
+   "name": "Irano-Anatolian",
+   "cells": 3559,
+   "richness": 221,
+   "threatened": 8,
+   "relief_m": 1005,
+   "dT_ssp126": 1.3,
+   "vel_ssp126": 0.701,
+   "refuge_ssp126": 96.7,
+   "exposed_ssp126": 0.7,
+   "index_ssp126": 0.829,
+   "dT_ssp245": 1.69,
+   "vel_ssp245": 0.915,
+   "refuge_ssp245": 85.1,
+   "exposed_ssp245": 5.4,
+   "index_ssp245": 0.669,
+   "dT_ssp585": 2.35,
+   "vel_ssp585": 1.271,
+   "refuge_ssp585": 54.3,
+   "exposed_ssp585": 17.1,
+   "index_ssp585": 0.54
+  },
+  {
+   "id": 16,
+   "name": "Japan",
+   "cells": 1492,
+   "richness": 170,
+   "threatened": 4,
+   "relief_m": 761,
+   "dT_ssp126": 1.51,
+   "vel_ssp126": 1.091,
+   "refuge_ssp126": 71.8,
+   "exposed_ssp126": 11.2,
+   "index_ssp126": 0.603,
+   "dT_ssp245": 1.64,
+   "vel_ssp245": 1.184,
+   "refuge_ssp245": 63.7,
+   "exposed_ssp245": 15.8,
+   "index_ssp245": 0.564,
+   "dT_ssp585": 2.3,
+   "vel_ssp585": 1.66,
+   "refuge_ssp585": 38.6,
+   "exposed_ssp585": 30.4,
+   "index_ssp585": 0.487
+  },
+  {
+   "id": 17,
+   "name": "Madagascar and the Indian Ocean Islands",
+   "cells": 1919,
+   "richness": 231,
+   "threatened": 21,
+   "relief_m": 478,
+   "dT_ssp126": 0.9,
+   "vel_ssp126": 0.781,
+   "refuge_ssp126": 91.2,
+   "exposed_ssp126": 3.8,
+   "index_ssp126": 0.74,
+   "dT_ssp245": 1.14,
+   "vel_ssp245": 0.98,
+   "refuge_ssp245": 69.6,
+   "exposed_ssp245": 12.1,
+   "index_ssp245": 0.592,
+   "dT_ssp585": 1.61,
+   "vel_ssp585": 1.394,
+   "refuge_ssp585": 40.2,
+   "exposed_ssp585": 28.5,
+   "index_ssp585": 0.491
+  },
+  {
+   "id": 18,
+   "name": "Madrean Pine-Oak Woodlands",
+   "cells": 2150,
+   "richness": 327,
+   "threatened": 7,
+   "relief_m": 1023,
+   "dT_ssp126": 1.2,
+   "vel_ssp126": 0.746,
+   "refuge_ssp126": 95.8,
+   "exposed_ssp126": 0.8,
+   "index_ssp126": 0.765,
+   "dT_ssp245": 1.54,
+   "vel_ssp245": 0.957,
+   "refuge_ssp245": 78.0,
+   "exposed_ssp245": 6.2,
+   "index_ssp245": 0.616,
+   "dT_ssp585": 2.0,
+   "vel_ssp585": 1.24,
+   "refuge_ssp585": 52.8,
+   "exposed_ssp585": 15.1,
+   "index_ssp585": 0.542
+  },
+  {
+   "id": 19,
+   "name": "Maputaland-Pondoland-Albany",
+   "cells": 1008,
+   "richness": 525,
+   "threatened": 19,
+   "relief_m": 499,
+   "dT_ssp126": 1.05,
+   "vel_ssp126": 0.777,
+   "refuge_ssp126": 96.1,
+   "exposed_ssp126": 2.0,
+   "index_ssp126": 0.799,
+   "dT_ssp245": 1.39,
+   "vel_ssp245": 1.035,
+   "refuge_ssp245": 76.7,
+   "exposed_ssp245": 7.6,
+   "index_ssp245": 0.621,
+   "dT_ssp585": 1.9,
+   "vel_ssp585": 1.409,
+   "refuge_ssp585": 39.5,
+   "exposed_ssp585": 24.5,
+   "index_ssp585": 0.5
+  },
+  {
+   "id": 20,
+   "name": "Mediterranean Basin",
+   "cells": 8499,
+   "richness": 200,
+   "threatened": 7,
+   "relief_m": 699,
+   "dT_ssp126": 1.25,
+   "vel_ssp126": 0.956,
+   "refuge_ssp126": 85.9,
+   "exposed_ssp126": 6.9,
+   "index_ssp126": 0.72,
+   "dT_ssp245": 1.55,
+   "vel_ssp245": 1.188,
+   "refuge_ssp245": 65.9,
+   "exposed_ssp245": 16.5,
+   "index_ssp245": 0.585,
+   "dT_ssp585": 2.2,
+   "vel_ssp585": 1.686,
+   "refuge_ssp585": 38.0,
+   "exposed_ssp585": 32.9,
+   "index_ssp585": 0.476
+  },
+  {
+   "id": 21,
+   "name": "Mesoamerica",
+   "cells": 3661,
+   "richness": 483,
+   "threatened": 15,
+   "relief_m": 858,
+   "dT_ssp126": 1.09,
+   "vel_ssp126": 0.812,
+   "refuge_ssp126": 76.3,
+   "exposed_ssp126": 11.0,
+   "index_ssp126": 0.681,
+   "dT_ssp245": 1.36,
+   "vel_ssp245": 1.008,
+   "refuge_ssp245": 62.2,
+   "exposed_ssp245": 24.1,
+   "index_ssp245": 0.56,
+   "dT_ssp585": 1.85,
+   "vel_ssp585": 1.373,
+   "refuge_ssp585": 48.8,
+   "exposed_ssp585": 33.3,
+   "index_ssp585": 0.486
+  },
+  {
+   "id": 22,
+   "name": "Mountains of Central Asia",
+   "cells": 3533,
+   "richness": 244,
+   "threatened": 7,
+   "relief_m": 1413,
+   "dT_ssp126": 1.41,
+   "vel_ssp126": 0.462,
+   "refuge_ssp126": 96.8,
+   "exposed_ssp126": 1.7,
+   "index_ssp126": 0.886,
+   "dT_ssp245": 1.79,
+   "vel_ssp245": 0.586,
+   "refuge_ssp245": 93.6,
+   "exposed_ssp245": 3.5,
+   "index_ssp245": 0.776,
+   "dT_ssp585": 2.51,
+   "vel_ssp585": 0.82,
+   "refuge_ssp585": 77.9,
+   "exposed_ssp585": 9.8,
+   "index_ssp585": 0.607
+  },
+  {
+   "id": 23,
+   "name": "Mountains of Southwest China",
+   "cells": 1250,
+   "richness": 405,
+   "threatened": 19,
+   "relief_m": 1236,
+   "dT_ssp126": 1.4,
+   "vel_ssp126": 0.631,
+   "refuge_ssp126": 96.4,
+   "exposed_ssp126": 0.4,
+   "index_ssp126": 0.722,
+   "dT_ssp245": 1.57,
+   "vel_ssp245": 0.706,
+   "refuge_ssp245": 90.2,
+   "exposed_ssp245": 1.9,
+   "index_ssp245": 0.662,
+   "dT_ssp585": 2.19,
+   "vel_ssp585": 0.986,
+   "refuge_ssp585": 69.0,
+   "exposed_ssp585": 8.0,
+   "index_ssp585": 0.579
+  },
+  {
+   "id": 24,
+   "name": "New Caledonia",
+   "cells": 74,
+   "richness": 97,
+   "threatened": 6,
+   "relief_m": 503,
+   "dT_ssp126": 0.84,
+   "vel_ssp126": 0.786,
+   "refuge_ssp126": 87.8,
+   "exposed_ssp126": 1.4,
+   "index_ssp126": 0.827,
+   "dT_ssp245": 1.08,
+   "vel_ssp245": 1.009,
+   "refuge_ssp245": 79.7,
+   "exposed_ssp245": 9.5,
+   "index_ssp245": 0.755,
+   "dT_ssp585": 1.43,
+   "vel_ssp585": 1.335,
+   "refuge_ssp585": 71.6,
+   "exposed_ssp585": 20.3,
+   "index_ssp585": 0.582
+  },
+  {
+   "id": 25,
+   "name": "New Zealand",
+   "cells": 1131,
+   "richness": 49,
+   "threatened": 6,
+   "relief_m": 582,
+   "dT_ssp126": 0.8,
+   "vel_ssp126": 0.575,
+   "refuge_ssp126": 96.1,
+   "exposed_ssp126": 1.1,
+   "index_ssp126": 0.861,
+   "dT_ssp245": 1.02,
+   "vel_ssp245": 0.737,
+   "refuge_ssp245": 93.4,
+   "exposed_ssp245": 3.0,
+   "index_ssp245": 0.778,
+   "dT_ssp585": 1.33,
+   "vel_ssp585": 0.96,
+   "refuge_ssp585": 75.0,
+   "exposed_ssp585": 10.2,
+   "index_ssp585": 0.617
+  },
+  {
+   "id": 26,
+   "name": "Philippines",
+   "cells": 1008,
+   "richness": 331,
+   "threatened": 22,
+   "relief_m": 759,
+   "dT_ssp126": 0.94,
+   "vel_ssp126": 0.846,
+   "refuge_ssp126": 72.0,
+   "exposed_ssp126": 13.4,
+   "index_ssp126": 0.599,
+   "dT_ssp245": 1.13,
+   "vel_ssp245": 1.018,
+   "refuge_ssp245": 58.6,
+   "exposed_ssp245": 19.2,
+   "index_ssp245": 0.54,
+   "dT_ssp585": 1.64,
+   "vel_ssp585": 1.476,
+   "refuge_ssp585": 44.9,
+   "exposed_ssp585": 29.3,
+   "index_ssp585": 0.495
+  },
+  {
+   "id": 27,
+   "name": "Polynesia-Micronesia",
+   "cells": 180,
+   "richness": 37,
+   "threatened": 4,
+   "relief_m": 688,
+   "dT_ssp126": 1.27,
+   "vel_ssp126": 2.051,
+   "refuge_ssp126": 63.9,
+   "exposed_ssp126": 26.7,
+   "index_ssp126": 0.685,
+   "dT_ssp245": 1.59,
+   "vel_ssp245": 2.585,
+   "refuge_ssp245": 62.2,
+   "exposed_ssp245": 33.3,
+   "index_ssp245": 0.621,
+   "dT_ssp585": 2.04,
+   "vel_ssp585": 3.349,
+   "refuge_ssp585": 56.7,
+   "exposed_ssp585": 38.9,
+   "index_ssp585": 0.505
+  },
+  {
+   "id": 28,
+   "name": "Southwest Australia",
+   "cells": 1318,
+   "richness": 256,
+   "threatened": 3,
+   "relief_m": 121,
+   "dT_ssp126": 0.9,
+   "vel_ssp126": 2.011,
+   "refuge_ssp126": 89.8,
+   "exposed_ssp126": 1.4,
+   "index_ssp126": 0.665,
+   "dT_ssp245": 1.23,
+   "vel_ssp245": 2.745,
+   "refuge_ssp245": 42.3,
+   "exposed_ssp245": 14.5,
+   "index_ssp245": 0.535,
+   "dT_ssp585": 1.61,
+   "vel_ssp585": 3.611,
+   "refuge_ssp585": 1.1,
+   "exposed_ssp585": 84.1,
+   "index_ssp585": 0.347
+  },
+  {
+   "id": 29,
+   "name": "Succulent Karoo",
+   "cells": 433,
+   "richness": 297,
+   "threatened": 11,
+   "relief_m": 523,
+   "dT_ssp126": 1.09,
+   "vel_ssp126": 1.231,
+   "refuge_ssp126": 94.9,
+   "exposed_ssp126": 0.5,
+   "index_ssp126": 0.777,
+   "dT_ssp245": 1.53,
+   "vel_ssp245": 1.731,
+   "refuge_ssp245": 62.1,
+   "exposed_ssp245": 12.2,
+   "index_ssp245": 0.57,
+   "dT_ssp585": 2.06,
+   "vel_ssp585": 2.325,
+   "refuge_ssp585": 10.6,
+   "exposed_ssp585": 40.9,
+   "index_ssp585": 0.438
+  },
+  {
+   "id": 30,
+   "name": "Sundaland",
+   "cells": 4566,
+   "richness": 569,
+   "threatened": 38,
+   "relief_m": 460,
+   "dT_ssp126": 0.91,
+   "vel_ssp126": 1.189,
+   "refuge_ssp126": 53.4,
+   "exposed_ssp126": 31.2,
+   "index_ssp126": 0.529,
+   "dT_ssp245": 1.1,
+   "vel_ssp245": 1.444,
+   "refuge_ssp245": 39.6,
+   "exposed_ssp245": 39.4,
+   "index_ssp245": 0.459,
+   "dT_ssp585": 1.6,
+   "vel_ssp585": 2.097,
+   "refuge_ssp585": 28.7,
+   "exposed_ssp585": 48.0,
+   "index_ssp585": 0.404
+  },
+  {
+   "id": 31,
+   "name": "Tropical Andes",
+   "cells": 5215,
+   "richness": 552,
+   "threatened": 21,
+   "relief_m": 1425,
+   "dT_ssp126": 1.04,
+   "vel_ssp126": 0.366,
+   "refuge_ssp126": 99.0,
+   "exposed_ssp126": 0.2,
+   "index_ssp126": 0.862,
+   "dT_ssp245": 1.34,
+   "vel_ssp245": 0.47,
+   "refuge_ssp245": 93.4,
+   "exposed_ssp245": 2.0,
+   "index_ssp245": 0.717,
+   "dT_ssp585": 1.88,
+   "vel_ssp585": 0.661,
+   "refuge_ssp585": 78.6,
+   "exposed_ssp585": 6.8,
+   "index_ssp585": 0.61
+  },
+  {
+   "id": 32,
+   "name": "Tumbes-Choco-Magdalena",
+   "cells": 1085,
+   "richness": 601,
+   "threatened": 24,
+   "relief_m": 837,
+   "dT_ssp126": 1.04,
+   "vel_ssp126": 0.739,
+   "refuge_ssp126": 88.2,
+   "exposed_ssp126": 4.4,
+   "index_ssp126": 0.744,
+   "dT_ssp245": 1.29,
+   "vel_ssp245": 0.917,
+   "refuge_ssp245": 65.8,
+   "exposed_ssp245": 15.4,
+   "index_ssp245": 0.602,
+   "dT_ssp585": 1.87,
+   "vel_ssp585": 1.33,
+   "refuge_ssp585": 40.6,
+   "exposed_ssp585": 34.6,
+   "index_ssp585": 0.489
+  },
+  {
+   "id": 33,
+   "name": "Wallacea",
+   "cells": 1140,
+   "richness": 247,
+   "threatened": 13,
+   "relief_m": 848,
+   "dT_ssp126": 0.92,
+   "vel_ssp126": 0.67,
+   "refuge_ssp126": 83.0,
+   "exposed_ssp126": 7.6,
+   "index_ssp126": 0.676,
+   "dT_ssp245": 1.11,
+   "vel_ssp245": 0.814,
+   "refuge_ssp245": 73.6,
+   "exposed_ssp245": 13.2,
+   "index_ssp245": 0.6,
+   "dT_ssp585": 1.61,
+   "vel_ssp585": 1.175,
+   "refuge_ssp585": 58.9,
+   "exposed_ssp585": 21.0,
+   "index_ssp585": 0.532
+  },
+  {
+   "id": 34,
+   "name": "Western Ghats and Sri Lanka",
+   "cells": 706,
+   "richness": 430,
+   "threatened": 28,
+   "relief_m": 496,
+   "dT_ssp126": 1.07,
+   "vel_ssp126": 0.962,
+   "refuge_ssp126": 84.0,
+   "exposed_ssp126": 5.7,
+   "index_ssp126": 0.72,
+   "dT_ssp245": 1.18,
+   "vel_ssp245": 1.059,
+   "refuge_ssp245": 76.5,
+   "exposed_ssp245": 10.6,
+   "index_ssp245": 0.659,
+   "dT_ssp585": 1.73,
+   "vel_ssp585": 1.547,
+   "refuge_ssp585": 43.5,
+   "exposed_ssp585": 32.9,
+   "index_ssp585": 0.477
+  }
+ ],
+ "bounds": [
+  [
+   -60,
+   -180
+  ],
+  [
+   85,
+   180
+  ]
+ ]
+}
